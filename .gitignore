@@ -13,7 +13,6 @@ venv/
 env/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -37,7 +36,6 @@ report.xml
 .benchmarks
 
 # Secrets
-.env
 *.key
 
 # Internal plan + local dev instructions (not for repo)
@@ -49,3 +47,5 @@ docs/superpowers/
 
 # Local scratch / temp scripts at repo root (e.g. _smoke.py, _scratch.py) — never committed
 /_*.py
+config.bat
+node_modules
